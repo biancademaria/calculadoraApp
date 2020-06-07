@@ -3,6 +3,23 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+  //** violet **/
+  --ion-color-violet: #a800a8;
+  --ion-color-violet-rgb: 168,0,168;
+  --ion-color-violet-contrast: #ffffff;
+  --ion-color-violet-contrast-rgb: 255,255,255;
+  --ion-color-violet-shade: #940094;
+  --ion-color-violet-tint: #b11ab1;
+
+  /** lucky **/
+  --ion-color-lucky: #0d9710;
+  --ion-color-lucky-rgb: 13,151,16;
+  --ion-color-lucky-contrast: #ffffff;
+  --ion-color-lucky-contrast-rgb: 255,255,255;
+  --ion-color-lucky-shade: #0b850e;
+  --ion-color-lucky-tint: #25a128;
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -74,6 +91,23 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+}
+
+.ion-color-violet {
+  --ion-color-base: var(--ion-color-violet);
+  --ion-color-base-rgb: var(--ion-color-violet-rgb);
+  --ion-color-contrast: var(--ion-color-violet-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-violet-contrast-rgb);
+  --ion-color-shade: var(--ion-color-violet-shade);
+  --ion-color-tint: var(--ion-color-violet-tint);
+}
+.ion-color-lucky {
+  --ion-color-base: var(--ion-color-lucky);
+  --ion-color-base-rgb: var(--ion-color-lucky-rgb);
+  --ion-color-contrast: var(--ion-color-lucky-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-lucky-contrast-rgb);
+  --ion-color-shade: var(--ion-color-lucky-shade);
+  --ion-color-tint: var(--ion-color-lucky-tint);
 }
 
 @media (prefers-color-scheme: dark) {
